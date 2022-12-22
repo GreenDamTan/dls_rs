@@ -1,3 +1,30 @@
+# Nvidia Delegated License Service
+
+dls implementation in rust.
+
+## Requirement
+
+- Any os with redis
+- rust stable toolchain
+
+## Usage
+
+clone this repo
+
+```
+cd dls_rs
+cargo build --release
+```
+
+copy `target/release/nv_ls` to your dir.
+
+and run with
+`./nv_ls`
+
+change config file `./data/config.json` as follows.
+
+Once the configuration file has been modified, restart nv_ls to make it effective
+
 ## config.json
 
 ### server_addr
